@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ejercicio 7 - DOM básico</title>
+    <link rel="stylesheet" href="ej6.css" />
+  </head>
+
+  <body>
+    <!-- Enlace Back fijo -->
+    <a href="../index.html" class="back-link">Back to Index</a>
+    <div>
+      <p id="s1"> <!-- Identificador de sección para poder relacionar acción del enlace con cada sección-->
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis
+        enim vitae orci. Phasellus libero. Maecenas nisl arcu, consequat congue,
+        commodo nec, commodo ultricies, turpis. Quisque sapien nunc, posuere
+        vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id,
+        aliquam vitae, ultrices porttitor, pede. Nullam sit amet nisl elementum
+        elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut,
+        rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper,
+        odio urna consequat arcu, at posuere ante quam non dolor. Lorem ipsum
+        dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.
+      </p>
+      <!-- Javascript:void(0) para evitar que el navegador recargue la pagina-->
+      <a href="javascript:void(0);" onclick="toggleSection('s1', this)" class="toggle-link">Ocultar contenidos</a>
+    </div>
+    <br />
+    <div>
+      <p id="s2">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis
+        enim vitae orci. Phasellus libero. Maecenas nisl arcu, consequat congue,
+        commodo nec, commodo ultricies, turpis. Quisque sapien nunc, posuere
+        vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id,
+        aliquam vitae, ultrices porttitor, pede. Nullam sit amet nisl elementum
+        elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut,
+        rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper,
+        odio urna consequat arcu, at posuere ante quam non dolor. Lorem ipsum
+        dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.
+      </p>
+      <a href="javascript:void(0);" onclick="toggleSection('s2', this)" class="toggle-link">Ocultar contenidos</a>
+    </div>
+    <br />
+    <div>
+      <p id="s3">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis
+        enim vitae orci. Phasellus libero. Maecenas nisl arcu, consequat congue,
+        commodo nec, commodo ultricies, turpis. Quisque sapien nunc, posuere
+        vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id,
+        aliquam vitae, ultrices porttitor, pede. Nullam sit amet nisl elementum
+        elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut,
+        rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper,
+        odio urna consequat arcu, at posuere ante quam non dolor. Lorem ipsum
+        dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.
+      </p>
+      <a href="javascript:void(0);" onclick="toggleSection('s3', this)" class="toggle-link">Ocultar contenidos</a>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

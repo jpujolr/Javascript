@@ -1,0 +1,35 @@
+.container-sm{
+    margin-top: 15px;
+  }
+  
+  .fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegura que el botón esté encima de otros elementos */
+  }
+
+/*Asegura que la lista tenga un alto variable y que no se recorte*/
+#lista {
+    max-height: 400px; /*Ajuste de alto máximo para evitar que la lista ocupe toda la pantalla*/
+    overflow-y: auto; /*Permite hacer scroll si el contenido excede el alto*/
+  }
+
+  .back-link {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+
+  .back-link:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+  }

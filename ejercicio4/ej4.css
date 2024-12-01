@@ -1,0 +1,42 @@
+.additional {
+  transition: all 0.3s ease; /*Para animar el cambio de visibilidad*/
+}
+
+.additional.hidden {
+  /*Estilos cuando el texto está oculto*/
+  display: none; /*Oculta el texto*/
+  visibility: hidden;
+  opacity: 0;
+}
+
+.additional.visible {
+  /*Estilos cuando el texto es visible*/
+  display: inline; /* Muestra el texto en línea con el resto del contenido */
+  visibility: visible;
+  opacity: 1; /* Totalmente visible */
+}
+
+.back-link {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #f0f0f0;
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.back-link:hover {
+  background-color: #e0e0e0;
+  border-color: #bbb;
+}
+
+/*Ajustar texto para que no choque con el botón */
+p {
+  margin-top: 50px; /* Separación extra del botón al texto */
+}

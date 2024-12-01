@@ -1,0 +1,23 @@
+.back-link {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+
+  .back-link:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+  }
+
+  /*Ajustar texto para que no choque con el botón */
+p {
+  margin-top: 50px; /* Separación extra del botón al texto */
+}

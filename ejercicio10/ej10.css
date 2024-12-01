@@ -1,0 +1,9 @@
+/*Asegura que la lista tenga un alto variable y que no se recorte*/
+#lista {
+    max-height: 400px; /*Ajuste de alto máximo para evitar que la lista ocupe toda la pantalla*/
+    overflow-y: auto; /*Permite hacer scroll si el contenido excede el alto*/
+  }
+
+.container-sm{
+    margin-top: 15px;  
+}
